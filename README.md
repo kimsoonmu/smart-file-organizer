@@ -1,2 +1,22 @@
-# smart-file-organizer
-Automatically organizes files into folders by type
+# Smart File Organizer
+
+## 소개
+이 프로젝트는 폴더 안에 섞여 있는 파일들을 종류별(이미지, 문서, 영상, 음악, 압축파일 등)로
+자동 정리해주는 파이썬 스크립트입니다.
+
+## 주요 기능
+- 파일 확장자를 분석해 카테고리별 폴더로 자동 분류
+- 이미지, 문서, 영상, 음악, 압축파일, 기타로 구분
+- 정리하고 싶은 폴더를 직접 지정 가능
+
+## 사용 방법
+1. Python이 설치되어 있어야 합니다.
+2. 이 저장소를 다운로드(클론)합니다.
+3. 터미널에서 아래 명령어를 실행합니다.
+
+\`\`\`
+python organize.py [정리할 폴더 경로]
+\`\`\`
+
+## 라이선스
+MIT License
